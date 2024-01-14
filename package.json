@@ -1,0 +1,17 @@
+{
+  "name": "ecommerceunthinkable",
+  "version": "1.0.0",
+  "description": "ecommerce with MERN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "nodemon backend/index.js",
+    "client" : "npm run start --prefix frontend",
+    "dev" : "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
